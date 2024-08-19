@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0"/>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <lib desc="file#full-subtracter(using half-subtracter).circ" name="7"/>
+  <lib desc="file#C:\Users\dwijd\Desktop\CO\Practical_1\HS.circ" name="8"/>
+  <lib desc="file#Half-subtacter.circ" name="9"/>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(260,350)" to="(260,420)"/>
+    <wire from="(160,320)" to="(210,320)"/>
+    <wire from="(710,340)" to="(710,410)"/>
+    <wire from="(400,420)" to="(400,430)"/>
+    <wire from="(610,300)" to="(670,300)"/>
+    <wire from="(330,300)" to="(330,320)"/>
+    <wire from="(540,150)" to="(540,240)"/>
+    <wire from="(590,150)" to="(590,240)"/>
+    <wire from="(490,300)" to="(490,320)"/>
+    <wire from="(410,350)" to="(410,380)"/>
+    <wire from="(230,150)" to="(230,240)"/>
+    <wire from="(500,400)" to="(500,430)"/>
+    <wire from="(690,150)" to="(690,230)"/>
+    <wire from="(740,150)" to="(740,230)"/>
+    <wire from="(430,150)" to="(430,240)"/>
+    <wire from="(540,410)" to="(540,430)"/>
+    <wire from="(450,300)" to="(490,300)"/>
+    <wire from="(280,150)" to="(280,240)"/>
+    <wire from="(540,410)" to="(710,410)"/>
+    <wire from="(410,380)" to="(450,380)"/>
+    <wire from="(380,150)" to="(380,240)"/>
+    <wire from="(490,320)" to="(520,320)"/>
+    <wire from="(300,300)" to="(330,300)"/>
+    <wire from="(330,320)" to="(360,320)"/>
+    <wire from="(160,320)" to="(160,360)"/>
+    <wire from="(260,420)" to="(400,420)"/>
+    <wire from="(450,380)" to="(450,430)"/>
+    <wire from="(570,350)" to="(570,400)"/>
+    <wire from="(500,400)" to="(570,400)"/>
+    <comp lib="7" loc="(410,350)" name="main"/>
+    <comp lib="0" loc="(740,150)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="A0"/>
+    </comp>
+    <comp lib="0" loc="(430,150)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="A2"/>
+    </comp>
+    <comp lib="7" loc="(570,350)" name="main"/>
+    <comp lib="0" loc="(690,150)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="B0"/>
+    </comp>
+    <comp lib="0" loc="(230,150)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="B3"/>
+    </comp>
+    <comp lib="0" loc="(540,430)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="D0"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(400,430)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="D3"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(431,74)" name="Text">
+      <a name="text" val="En. No:- 23162121027"/>
+      <a name="font" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="6" loc="(436,92)" name="Text">
+      <a name="text" val="2nd sem (BDA)"/>
+      <a name="font" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="0" loc="(540,150)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="B1"/>
+    </comp>
+    <comp lib="0" loc="(500,430)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="D1"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(450,430)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="D2"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(280,150)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="A3"/>
+    </comp>
+    <comp lib="9" loc="(710,340)" name="main"/>
+    <comp lib="6" loc="(445,58)" name="Text">
+      <a name="text" val="Name:- Dwij deasi"/>
+      <a name="font" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="0" loc="(380,150)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="B2"/>
+    </comp>
+    <comp lib="6" loc="(440,486)" name="Text">
+      <a name="text" val="Parallel Binary Subtractors(Ripple Carry)"/>
+      <a name="font" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="0" loc="(590,150)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="A1"/>
+    </comp>
+    <comp lib="0" loc="(160,360)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Bout"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="7" loc="(260,350)" name="main"/>
+  </circuit>
+</project>
